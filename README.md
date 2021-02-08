@@ -1,5 +1,5 @@
 # MovementAnimationCurve
-Using AnimationCurves to easily create complex but smooth seemingly random movements in Unity
+Using AnimationCurves to easily create complex but smooth and seemingly random movements in Unity
 
 ![GameObjects moving according to Animation Curves](media/butterflies.gif)
 
