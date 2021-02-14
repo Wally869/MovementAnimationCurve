@@ -51,9 +51,9 @@ public class MovementAnimationCurves : MonoBehaviour
 
         _mTempPosition = _kReferencePosition;
 
-        _mTempPosition.x += mCurveX.Evaluate(mCycleDurationX);
-        _mTempPosition.y += mCurveX.Evaluate(mCycleDurationY);
-        _mTempPosition.z += mCurveX.Evaluate(mCycleDurationZ);
+        _mTempPosition.x += mCurveX.Evaluate(Evaluate(mCycleDurationX));
+        _mTempPosition.y += mCurveX.Evaluate(Evaluate(mCycleDurationY));
+        _mTempPosition.z += mCurveX.Evaluate(Evaluate(mCycleDurationZ));
 
         _mTempForward = _mTempPosition - transform.localPosition;
         if (bAxisX == false)
